@@ -23,7 +23,7 @@ The sender part is easy. The sender needs to first connect to the broker. Then i
 To install an MQTT broker, use the following command:
 > sudo apt install mosquitto mosquitto-clients
 
-After installing it, it will be automatically `active`. But to make sure it will be `active` after reboot, the following command is needed: 
+After installing it, it will be automatically `active`. But to make sure it will be `active` after the system reboots, the following command is needed: 
 > sudo systemctl enable mosquitto
 > 
 To check the status of the MQTT service, run the following command: 
